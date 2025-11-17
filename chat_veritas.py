@@ -6,7 +6,8 @@ from langchain_core.prompts import PromptTemplate
 
 # ---- CONFIG ----
 LLM_MODEL = "llama3.2"
-OLLAMA_URL = "http://localhost:11434"
+OLLAMA_URL = "https://collins-reduces-correspondence-shirts.trycloudflare.com"
+#OLLAMA_URL = "http://localhost:11434"
 NEO4J_URI = "neo4j+s://18d82ec3.databases.neo4j.io"
 NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "z8MX32MmuY1JfLRDXQA467AKttB73vZ6GGaW7YnTb9s"
@@ -15,7 +16,7 @@ NEO4J_DATABASE = "neo4j"
 # Configuración de la página
 st.set_page_config(
     page_title="VeritasIA Chat",
-    page_icon="🔍",
+    page_icon="🔍", 
     layout="wide"
 )
 
